@@ -20,6 +20,7 @@ RUN mkdir /var/run/munin \
 ADD docker/run.sh /run.sh
 
 VOLUME /etc/munin
+VOLUME /var/lib/munin
 
 EXPOSE 80
 
