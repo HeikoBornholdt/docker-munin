@@ -17,7 +17,6 @@ RUN mkdir /var/run/munin \
 	&& \
 	chown munin:munin /var/run/munin
 
-ADD docker/apache24.conf /etc/munin/apache24.conf
 ADD docker/run.sh /run.sh
 
 VOLUME /etc/munin
